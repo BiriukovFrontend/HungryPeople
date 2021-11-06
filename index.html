@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Hungry</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap&subset=cyrillic"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="./css/swiper.min.css">
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+
+</head>
+
+<body>
+  <header id="main_screen" class="color_white">
+
+    <div class="container">
+     
+      <div class="header__nav-top">
+        <div class="header__nav-left">
+          <nav>
+            <ul>
+              <li><a class="header__nav-link" href="#home">HOME</a></li>
+              <li><a class="header__nav-link" href="#about">ABOUT</a></li>
+              <li><a class="header__nav-link" href="#team">TEAM</a></li>
+              <li><a class="header__nav-link" href="#book">BOOKING</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="logo"><img class="header__nav-logo" src="./images/logo.svg" alt="Hungry"></div>
+        <div class="header__nav-right">
+          <nav>
+            <ul>
+              <li><a class="header__nav-link" href="#menu">MENU</a></li>
+              <li><a class="header__nav-link" href="#gallery">GALERIE</a></li>
+              <li><a class="header__nav-link" href="#events">EVENTS</a></li>
+              <li><a class="header__nav-link" href="#contact">CONTACT</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div id="home" class="header__wrapper">
+        <div class="header__menu-left">
+          <div class="time">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</div>
+        </div>
+        <div class="header__menu-center">
+          <div class="title">
+            RESTAURANT
+          </div>
+          <h1 class="before">hungry people</h1>
+          <div class="header__menu-box">
+            <a class="btn header__menu-box-link" href="#book">BOOK TABLE </a>
+            <a class="btn header__menu-box-link" href="#">EXPLORE</a>
+          </div>
+          <div class="header__menu-buttom">
+            <div>
+              <a href="#about"><span><img src="./images/btn1.svg" alt="btn"></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="header__menu-right">
+          <a href="#"><span><i class="fab fa-facebook-f"></i></span></a>
+          <a href="#"><span><i class="fab fa-twitter"></i></span></a>
+          <a href="#"><span><i class="fab fa-instagram"></i></span></a>
+        </div>
+      </div>
+      <div class="burger-menu">
+        Menu
+          </div>
+          <div class="mobile__menu-list">
+            <div class="close-btn"></div>
+            <ul class="mobile__ul">
+            <li><a class="header__nav-link" href="#home">HOME</a></li>
+            <li><a class="header__nav-link" href="#about">ABOUT</a></li>
+            <li><a class="header__nav-link" href="#team">TEAM</a></li>
+            <li><a class="header__nav-link" href="#book">BOOKING</a></li>
+            <li><a class="header__nav-link" href="#menu">MENU</a></li>
+            <li><a class="header__nav-link" href="#gallery">GALERIE</a></li>
+            <li><a class="header__nav-link" href="#events">EVENTS</a></li>
+            <li><a class="header__nav-link" href="#contact">CONTACT</a></li>
+          </ul>
+          </div>
+       
+      </div>
+  </header>
+  <section id="about" class="about size padding__top">
+    <div class="container">
+      <div class="wrapper">
+        <div class="left__box box ">
+          <div class="section__heading before">about us</div>
+          <div class="section__title">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor
+            magna.
+          </div>
+          <div class="section__text">
+            Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed
+            dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris
+            tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+          </div>
+        </div>
+        <div class="block__image block__image_right square square__right">
+          <img src="./images/about.png" alt="About">
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section id="team" class="master color_white size padding__bottom ">
+    <div class="container__fliud-top title">OUR TEAM</div>
+    <div class="container">
+      <div class="wrapper">
+        <div class="block__image block__image_left square square__left">
+          <img src="./images/master.png" alt="masterchef">
+        </div>
+        <div class="right__box box line">
+          <div class="section__heading before">MASTER CHEF</div>
+          <div class="section__title">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor
+            magna.
+          </div>
+          <div class="section__text">
+            Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed
+            dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris
+            tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="book" class="book size padding__top">
+    <div class="container">
+      <div class="wrapper">
+        <div class="book__left box">
+          <div class="section__heading before">book a table</div>
+          <div class="book__form">
+            <form action="" method="POST">
+              <input class="inp" type="text" name="Name" placeholder="Name" value="">
+              <input class="inp" type="email" name="email" placeholder="E-mail" id="" value="">
+              <input class="inp" type="tel" name="tel" placeholder="Phone" value="" id="">
+              <select class="inp" name="People" id="">
+                <option value="0">People</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+              <input class="inp" type="text" name="Date" placeholder="Date (mm/dd)" id="">
+              <input class="inp" type="text" name="Time" placeholder="Time" id="">
+              <button class="btn book__btn " type="submit">BOOK NOW</button>
+            </form>
+          </div>
+        </div>
+        <div class="block__image block__image_right square square__right">
+          <img src="./images/book.png" alt="book">
+        </div>
+      </div>
+      <div class="footer__section">Mon - Fri: <span> 8PM - 10PM </span> , Sat - Sun: <span> 8PM - 3AM</span>, Phone:
+        <span>
+          +40 729 131 637/+40 726 458 782 </span></div>
+  </section>
+  <section class="specialites color_white padding__bottom size" id="slider">
+    <div class="container__fliud-top title line"> specialties</div>
+    <div class="container ">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="wrapper">
+              <div class="block__image block__image_left square square__left">
+                <img src="./images/chocolate.png" alt="chocolate">
+              </div>
+              <div class="right__box box ">
+                <div class=" section__heading before">chocolate pancakes</div>
+                <div class="section__title">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor
+                  magna.
+                </div>
+                <div class="section__text">
+                  Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed
+                  dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem.
+                  Mauris
+                  tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="wrapper">
+              <div class="block__image block__image_left square square__left">
+                <img src="./images/master.png" alt="masterchef">
+              </div>
+              <div class="right__box box">
+                <div class="section__heading  before">MASTER CHEF</div>
+                <div class="section__title">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor
+                  magna.
+                </div>
+                <div class="section__text">
+                  Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed
+                  dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem.
+                  Mauris
+                  tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+  <section id="menu" class="menu padding__top ">
+    <div class="container">
+      <div class="menu__inner">
+        <div class="box">
+          <div class="section__heading before">DELICIOUS MENU</div>
+          <div class="section__title">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor
+            magna.
+          </div>
+        </div>
+      </div>
+      <ul class="filter_menu">
+        <li data-filter="supe" class="supe">SOUPE</li>
+        <li data-filter="pizza" class="pizza">PIZZA</li>
+        <li data-filter="pasta" class="pasta">PASTA</li>
+        <li data-filter="deser" class="deser">DESERT</li>
+        <li data-filter="wine" class="wine">WINE</li>
+        <li data-filter="beer" class="beer">BEER</li>
+        <li data-filter="drink" class="drink">DRINKS</li>
+      </ul>
+      <div class="menu_items">
+        <div class="item supe">
+          <div class="menu_title">SUPE QUATRO STAGIONI . . . .</div>
+          <div class="menu_price">55,68 USD</div>
+          <div class="menu_discription">Integer ullamcorper neque eu purus euismod</div>
+        </div>
+        <div class="item supe">
+          <div class="menu_title">SUPE QUATRO STAGIONI . . . .</div>
+          <div class="menu_price">55,68 USD</div>
+          <div class="menu_discription">Integer ullamcorper neque eu purus euismod</div>
+        </div>
+        <div class="item supe">
+          <div class="menu_title">SUPE QUATRO STAGIONI . . . .</div>
+          <div class="menu_price">55,68 USD</div>
+          <div class="menu_discription">Integer ullamcorper neque eu purus euismod</div>
+        </div>
+        <div class="item supe">
+          <div class="menu_title">SUPE QUATRO STAGIONI . . . .</div>
+          <div class="menu_price">55,68 USD</div>
+          <div class="menu_discription">Integer ullamcorper neque eu purus euismod</div>
+        </div>
+        <div class="item supe">
+          <div class="menu_title">SUPE QUATRO STAGIONI . . . .</div>
+          <div class="menu_price">55,68 USD</div>
+          <div class="menu_discription">Integer ullamcorper neque eu purus euismod</div>
+        </div>
+        <div class="item supe">
+          <div class="menu_title">SUPE QUATRO STAGIONI . . . .</div>
+          <div class="menu_price">55,68 USD</div>
+          <div class="menu_discription">Integer ullamcorper neque eu purus euismod</div>
+        </div>
+        <div class="item pizza">
+          <div class="menu_title">PIZZA QUATRO STAGIONI . . . .</div>
+          <div class="menu_price">55,68 USD</div>
+          <div class="menu_discription">Integer ullamcorper neque eu purus euismod</div>
+        </div>
+        <div class="item pizza">
+          <div class="menu_title">PIZZA QUATRO STAGIONI . . . .</div>
+          <div class="menu_price">55,68 USD</div>
+          <div class="menu_discription">Integer ullamcorper neque eu purus euismod</div>
+        </div>
+
+        <div class="item pizza">
+          <div class="menu_title">PIZZA QUATRO STAGIONI . . . .</div>
+          <div class="menu_price">55,68 USD</div>
+          <div class="menu_discription">Integer ullamcorper neque eu purus euismod</div>
+        </div>
+        <div class="item pizza">
+          <div class="menu_title">PIZZA QUATRO STAGIONI . . . .</div>
+          <div class="menu_price">55,68 USD</div>
+          <div class="menu_discription">Integer ullamcorper neque eu purus euismod</div>
+        </div>
+        <div class="item pasta">
+          <div class="menu_title">PASTA QUATRO STAGIONI . . . .</div>
+          <div class="menu_price">55,68 USD</div>
+          <div class="menu_discription">Integer ullamcorper neque eu purus euismod</div>
+        </div>
+        <div class="item pasta">
+          <div class="menu_title">PASTA QUATRO STAGIONI . . . .</div>
+          <div class="menu_price">55,68 USD</div>
+          <div class="menu_discription">Integer ullamcorper neque eu purus euismod</div>
+        </div>
+        <div class="item pasta">
+          <div class="menu_title">PASTA QUATRO STAGIONI . . . .</div>
+          <div class="menu_price">55,68 USD</div>
+          <div class="menu_discription">Integer ullamcorper neque eu purus euismod</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="events" class="events color_white">
+    <div class="container__fliud-top title line"> PRIVATE EVENTS</div>
+    <div class="container">
+      <div class="wrapper">
+        <div class="block__image block__image_left  square square__left rectangle">
+          <img src="./images/wedings1.png" alt="wedings">
+          <div class="img__title">weddings</div>
+        </div>
+        <div class="block__image block__image_right square square__right">
+          <img src="./images/wedings2.png" alt="wedings2">
+          <div class="img__title">corporate pzrties</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__section color">
+      For private events please call: <span> +40 729 131 637/+40 726 458 782 </span> or use the contact form.
+    </div>
+    <div class="gallery" id="gallery">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="./images/slider.png" data-fancybox="gallery">
+              <span><img src="./images/slider.png" alt=""></span>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="./images/slider2.png" data-fancybox="gallery">
+              <span><img src="./images/slider2.png" alt=""></span>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="./images/slider3.png" data-fancybox="gallery">
+              <span><img src="./images/slider3.png" alt=""></span>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="./images/slider4.png" data-fancybox="gallery">
+              <span><img src="./images/slider4.png" alt=""></span>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="./images/slider.png" data-fancybox="gallery">
+              <span><img src="./images/slider.png" alt=""></span>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="./images/slider2.png" data-fancybox="gallery">
+              <span><img src="./images/slider2.png" alt=""></span>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="./images/slider3.png" data-fancybox="gallery">
+              <span><img src="./images/slider3.png" alt=""></span>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="./images/lider4.png" data-fancybox="gallery">
+              <span><img src="./images/slider4.png" alt=""></span>
+            </a>
+          </div>
+          
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact size">
+    <div class="container">
+      <div class="box">
+        <div class="section__heading before">CONTACT</div>
+        <div class="section__title">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor
+          magna.
+        </div>
+      </div>
+      <div class="contact__form">
+        <form action="" method="POST">
+          <input class="inp" type="text" name="Name" placeholder="Name" value="">
+          <input class="inp" type="email" name="email" placeholder="E-mail" id="" value="">
+          <input class="inp" type="tel" name="tel" placeholder="Phone" value="" id="">
+          <textarea class="inp inp_text" type="text" name="text" placeholder="Message"></textarea>
+          <div class="form_info">
+            <i class="fas fa-map-marker-alt"></i> <span>5th London Boulevard, U.K.</span>
+            <i class="fas fa-phone"></i> <a href="tel:+40 729 131 637/+40 726 458 782"> +40 729 131 637/+40 726 458
+              782</a>
+            <i class="fas fa-envelope"></i> <a href="mailto:office@mindblister.com">office@mindblister.com</a>
+            <button class="btn btn_contact " type="submit">SEND MESSAGE</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <section class="map">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4175.495149782178!2d-0.17359886401461763!3d51.51753683862792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ab2c078a0e3%3A0xc844fb5b031ae504!2zTG9uZG9uIFN0LCBQYWRkaW5ndG9uLCBMb25kb24sINCS0LXQu9C40LrQvtCx0YDQuNGC0LDQvdC40Y8!5e0!3m2!1sru!2spl!4v1572690052468!5m2!1sru!2spl"
+      width="100%" height="570" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    <div class="map__footer">
+      <span>© Copyright <b> Yaroslav Bi.</b> 2020</span>
+    </div>
+  </section>
+  <a class="arrow-top" >
+    <div>
+      <div id="btnLink"><span><img src="./images/btn1.svg" alt="btn"></span></div>
+    </div>
+  </a>
+  <script src="./js/jquery-3.4.1.slim.min.js"></script>
+  <script src="./js/jquery.fancybox.min.js"></script>
+  <script src="./js/swiper.min.js"></script>
+  <script src="./js/script.js"></script>
+  <script src="https://kit.fontawesome.com/b0e9e61628.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
