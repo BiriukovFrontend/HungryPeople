@@ -868,7 +868,7 @@ justify-content: center;
 .burger-menu{
   display: block;
   position: absolute;
-  bottom: 33%;
+  bottom: 33px;
   left: 0px;
 right: 0px;
 margin: 0 auto;
@@ -900,7 +900,7 @@ margin: 0 auto;
     width: auto;
   }
   .header__menu-center .before{
-  font-size: 45px;
+  font-size: 30px;
   }
   .header__menu-box{
     justify-content: center;
