@@ -6,7 +6,7 @@ var slider = new Swiper('#slider .swiper-container', {
   },
 });
 
-var gallery = new Swiper('#gallery .swiper-container', {
+var gallery = new Swiper('.gallery .swiper-container', {
   slidesPerView: 4,
   spaceBetween: 0,
   speed: 3000,
@@ -19,7 +19,7 @@ var gallery = new Swiper('#gallery .swiper-container', {
       autoHeight:true,
       
       pagination: {
-        el: '#gallery .swiper-pagination',
+        el: '.gallery .swiper-pagination',
         clickable: true,
       },
     },
@@ -27,35 +27,35 @@ var gallery = new Swiper('#gallery .swiper-container', {
       slidesPerView: 1,
       autoHeight:true,
       pagination: {
-        el: '#gallery .swiper-pagination',
+        el: '.gallery .swiper-pagination',
         clickable: true,
       },
     },
     500:{
       slidesPerView: 2,
       pagination: {
-        el: '#gallery .swiper-pagination',
+        el: '.gallery .swiper-pagination',
         clickable: true,
       },
     },
     900:{
       slidesPerView: 3,
       pagination: {
-        el: '#gallery .swiper-pagination',
+        el: '.gallery .swiper-pagination',
         clickable: true,
       },
     },
     1200:{
       slidesPerView: 5,
       pagination: {
-        el: '#gallery .swiper-pagination',
+        el: '.gallery .swiper-pagination',
         clickable: true,
       },
     },
      1600:{
       slidesPerView: 6,
       pagination: {
-        el: '#gallery .swiper-pagination',
+        el: '.gallery .swiper-pagination',
         clickable: true,
       },
     },
