@@ -12,9 +12,17 @@ var gallery = new Swiper('#gallery .swiper-container', {
   speed: 3000,
   loop: true,
   autoplay: {
-    delay: 1.500,
-  },
+    delay: 1.500,},
   breakpoints:{
+    150:{
+      slidesPerView: 1,
+      autoHeight:true,
+      
+      pagination: {
+        el: '#gallery .swiper-pagination',
+        clickable: true,
+      },
+    },
 320:{
       slidesPerView: 1,
       autoHeight:true,
@@ -22,9 +30,20 @@ var gallery = new Swiper('#gallery .swiper-container', {
         el: '#gallery .swiper-pagination',
         clickable: true,
       },
-    }
+    },
+    500:{
+      slidesPerView: 2,
+      clickable: true,
+    },
+    900:{
+      slidesPerView: 3,
+      clickable: true,
+    },
+    1200:{
+      slidesPerView: 4,
+      clickable: true,
+    },
   },
-
 });
 
 
