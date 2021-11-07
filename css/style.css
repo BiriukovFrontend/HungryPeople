@@ -1228,6 +1228,10 @@ iframe{
   .menu_items .item {
     flex-wrap: wrap;
   }
+  .book__form .inp {
+    width: 100%;
+
+}
 }
 @media (max-width: 414px) {
   .header{
