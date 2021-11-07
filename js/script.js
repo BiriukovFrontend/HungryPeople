@@ -46,7 +46,14 @@ var gallery = new Swiper('#gallery .swiper-container', {
       },
     },
     1200:{
-      slidesPerView: 4,
+      slidesPerView: 5,
+      pagination: {
+        el: '#gallery .swiper-pagination',
+        clickable: true,
+      },
+    },
+     1600:{
+      slidesPerView: 6,
       pagination: {
         el: '#gallery .swiper-pagination',
         clickable: true,
