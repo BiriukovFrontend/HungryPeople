@@ -33,15 +33,24 @@ var gallery = new Swiper('#gallery .swiper-container', {
     },
     500:{
       slidesPerView: 2,
-      clickable: true,
+      pagination: {
+        el: '#gallery .swiper-pagination',
+        clickable: true,
+      },
     },
     900:{
       slidesPerView: 3,
-      clickable: true,
+      pagination: {
+        el: '#gallery .swiper-pagination',
+        clickable: true,
+      },
     },
     1200:{
       slidesPerView: 4,
-      clickable: true,
+      pagination: {
+        el: '#gallery .swiper-pagination',
+        clickable: true,
+      },
     },
   },
 });
